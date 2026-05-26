@@ -1,0 +1,37 @@
+{
+  "version": "2025.0",
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "path",
+          "data": {
+            "pathName": "O0.0"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "HOOD_SHOOT"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "O0.1"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "HOOD_SHOOT"
+          }
+        }
+      ]
+    }
+  },
+  "resetOdom": true,
+  "folder": null,
+  "choreoAuto": false
+}
