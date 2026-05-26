@@ -1,0 +1,91 @@
+{
+  "version": "2025.0",
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "named",
+          "data": {
+            "name": "L3"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "M3-1.0"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Disparar"
+          }
+        },
+        {
+          "type": "wait",
+          "data": {
+            "waitTime": 0.7
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "L1"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "M3-1.1"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "REEFD"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "ColetarAlga"
+          }
+        },
+        {
+          "type": "wait",
+          "data": {
+            "waitTime": 3.0
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "M3-1.2"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "RepousoElevador"
+          }
+        },
+        {
+          "type": "wait",
+          "data": {
+            "waitTime": 0.7
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "M3-1.3"
+          }
+        }
+      ]
+    }
+  },
+  "resetOdom": true,
+  "folder": "MID",
+  "choreoAuto": false
+}

@@ -1,0 +1,54 @@
+{
+  "version": "2025.0",
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 5.053464255599144,
+        "y": 2.833523829600571
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 5.219598896105455,
+        "y": 2.5457701913464494
+      },
+      "isLocked": false,
+      "linkedName": "M4-1.0E"
+    },
+    {
+      "anchor": {
+        "x": 5.3235,
+        "y": 2.474749999999999
+      },
+      "prevControl": {
+        "x": 5.1068860252625985,
+        "y": 2.849936409874619
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": null
+    }
+  ],
+  "rotationTargets": [],
+  "constraintZones": [],
+  "pointTowardsZones": [],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 3.0,
+    "maxAcceleration": 3.0,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0,
+    "nominalVoltage": 12.0,
+    "unlimited": false
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": -54.0
+  },
+  "reversed": false,
+  "folder": "MID",
+  "idealStartingState": {
+    "velocity": 0,
+    "rotation": -54.0
+  },
+  "useDefaultConstraints": true
+}
